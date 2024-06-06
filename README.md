@@ -1,5 +1,5 @@
 ## Hi there 👋 Focused on sophisticated neural nets.
-for more check my [website](https://esmail-ibraheem.github.io/)
+**for more check my [website](https://esmail-ibraheem.github.io/)**
 <!--
 **Esmail-ibraheem/Esmail-ibraheem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
