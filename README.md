@@ -1,7 +1,7 @@
 Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical AI research papers to life by translating them into practical implementations.
 **For more check my [website](https://esmail-ibraheem.github.io/)** 
 
-**Research Papers:**
+**Publications:**
 1. [ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](https://arxiv.org/abs/2504.08744)
 2. [Galvatron: Automatic Distributed Training for Large Transformer Models](https://arxiv.org/abs/2504.03662)
 
