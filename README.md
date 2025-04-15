@@ -1,5 +1,10 @@
 Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical AI research papers to life by translating them into practical implementations.
 **For more check my [website](https://esmail-ibraheem.github.io/)** 
+
+**Research Papers: **
+1. [ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses )
+
+
 <!--
 **Esmail-ibraheem/Esmail-ibraheem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
