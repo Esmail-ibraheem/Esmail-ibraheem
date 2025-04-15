@@ -2,7 +2,7 @@ Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical
 **For more check my [website](https://esmail-ibraheem.github.io/)** 
 
 **Research Papers: **
-1. [ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses )
+1. [ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](https://arxiv.org/abs/2504.08744)
 
 
 <!--
