@@ -3,6 +3,7 @@ Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical
 
 **Research Papers: **
 1. [ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](https://arxiv.org/abs/2504.08744)
+2. [Galvatron: Automatic Distributed Training for Large Transformer Models](https://arxiv.org/abs/2504.03662)
 
 
 <!--
