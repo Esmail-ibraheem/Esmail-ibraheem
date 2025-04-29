@@ -1,4 +1,8 @@
-Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical AI research papers to life by translating them into practical implementations.
+**About Me** AI Research Engineer with a deep passion for neural networks, large language models, and cutting-edge machine
+learning techniques. Skilled in designing and optimizing scalable systems with a strong foundation in PyTorch
+and CUDA. Committed to open-source development, multilingual AI accessibility, and building intuitive tools
+that bridge the gap between research and real-world applications by translating them into practical implementations.
+
 **For more check my [website](https://esmail-ibraheem.github.io/)** 
 
 ### **Publications:**
