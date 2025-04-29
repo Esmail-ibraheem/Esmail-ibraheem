@@ -4,7 +4,7 @@ Hi there 👋 Focused on sophisticated neural nets, I enjoy bringing theoretical
 ### **Publications:**
 1. **[ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](https://arxiv.org/abs/2504.08744)**
 2. **[Galvatron: Automatic Distributed Training for Large Transformer Models](https://arxiv.org/abs/2504.03662)**
-3. **[Mixture of Transformers:Macro-Level Gating for Sparse Activation in Large Language Model Ensembles](http://dx.doi.org/10.13140/RG.2.2.25049.02400)**
+3. **[Mixture of Transformers: Macro-Level Gating for Sparse Activation in Large Language Model Ensembles](http://dx.doi.org/10.13140/RG.2.2.25049.02400)**
 
 
 <!--
