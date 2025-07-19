@@ -12,7 +12,7 @@ that bridge the gap between research and real-world applications by translating 
 4. **[Bachelor Thesis: AI Engine: Deep Learning and Neural Network Engine](http://dx.doi.org/10.13140/RG.2.2.22814.24643)**
 5. **[Universal Approximation Theorem for a Single-Layer Transformer](https://arxiv.org/abs/2507.10581)**
 
-
+ 
 <!--
 **Esmail-ibraheem/Esmail-ibraheem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
