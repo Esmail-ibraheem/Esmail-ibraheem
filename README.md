@@ -3,7 +3,7 @@ learning techniques. Skilled in designing and optimizing scalable systems with a
 and CUDA. Committed to open-source development, multilingual AI accessibility, and building intuitive tools 
 that bridge the gap between research and real-world applications by translating them into practical implementations.                                                                                                  
 
-**For more, check out my [website](https://esmail-ibraheem.github.io/)**   
+**For more, check out my [website](https://esmail-ibraheem.github.io/portfolio/)**   
 
 ### **Publications:** _ordered by most proud of_
 1. **[ExpertRAG: Efficient RAG with Mixture of Experts -- Optimizing Context Retrieval for Adaptive LLM Responses ](https://arxiv.org/abs/2504.08744)**
