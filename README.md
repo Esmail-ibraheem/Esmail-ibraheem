@@ -13,6 +13,7 @@ that bridge the gap between research and real-world applications by translating 
 4. **[Mixture of Transformers: Macro-Level Gating for Sparse Activation in Large Language Model Ensembles](http://dx.doi.org/10.13140/RG.2.2.25049.02400)**
 5. **[Bachelor Thesis: AI Engine: Deep Learning and Neural Network Engine](http://dx.doi.org/10.13140/RG.2.2.22814.24643)**
 6. **[Universal Approximation Theorem for a Single-Layer Transformer](https://arxiv.org/abs/2507.10581)**
+7. **[Mixture of Attention Schemes (MoAS): Learning to Route Between MHA, GQA, and MQA](https://arxiv.org/abs/2512.20650)**
 
  
 <!--
