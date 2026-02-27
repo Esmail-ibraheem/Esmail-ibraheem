@@ -1,6 +1,6 @@
 **About Me** AI Research Engineer with a deep passion for neural networks, large language models, and cutting-edge machine  
 learning techniques. Skilled in designing and optimizing scalable systems with a strong foundation in PyTorch 
-and CUDA. Committed to open-source development, multilingual AI accessibility, and building intuitive tools   
+and CUDA. Committed to open-source development, multilingual AI accessibility, and building intuitive tools    
 that bridge the gap between research and real-world applications by translating them into practical implementations.      
 
 **For more, check out my:** 
