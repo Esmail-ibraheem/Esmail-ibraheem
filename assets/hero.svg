@@ -23,10 +23,10 @@
     #wl4    { animation: wl4 20s linear infinite; }
     #wl5    { animation: wl5 20s linear infinite; }
     #prompt { animation: prompt 20s linear infinite; }
-    #typer  { animation: type 20s steps(14, end) infinite; }
-    #curgate { animation: curgate 20s linear infinite; }
+    #typer  { transform: translateX(118px); animation: type 20s steps(14, end) infinite; }
+    #curgate { opacity: 0; animation: curgate 20s linear infinite; }
     #cursor { animation: blink 1s linear infinite; }
-    #think  { animation: think 20s linear infinite; }
+    #think  { opacity: 0; animation: think 20s linear infinite; }
     .sp     { animation: spin 0.8s linear infinite; opacity: 0; }
     .sp1 { animation-delay: 0s; }
     .sp2 { animation-delay: 0.16s; }
@@ -59,6 +59,13 @@
     @keyframes out2   { 0%, 43% { opacity: 0; transform: translateY(5px); } 45%, 100% { opacity: 1; transform: translateY(0); } }
     @keyframes out3   { 0%, 46% { opacity: 0; transform: translateY(5px); } 48%, 100% { opacity: 1; transform: translateY(0); } }
     @keyframes foot   { 0%, 50% { opacity: 0; } 52%, 100% { opacity: 1; } }
+
+    /* Static full-session frame for reduced-motion users and renderers
+       without CSS animation (base styles above equal the final frame). */
+    @media (prefers-reduced-motion: reduce) {
+      #win, #scene, #wl1, #wl3, #wl4, #wl5, #prompt, #typer, #curgate, #cursor,
+      #think, .sp, #tool1, #tool2, #out1, #out2, #out3, #foot { animation: none; }
+    }
   </style>
 
   <!-- window chrome: fades in once, persists across content loops -->
@@ -73,7 +80,7 @@
 
   <!-- session content: loops every 20s -->
   <g id="scene">
-      <!-- welcome box -->
+      <!-- welcome box (wl2 is the blank spacer line) -->
       <g id="wl1">
         <rect x="32" y="58" width="412" height="128" rx="6" fill="none" stroke="#3E3E38"/>
         <text x="48" y="82"><tspan class="coral">✻</tspan><tspan class="b" x="65">Welcome to Esmail's Terminal CV!</tspan></text>
@@ -87,6 +94,7 @@
         <text class="coral b" x="32" y="214">&gt;</text>
         <text x="49" y="214" textLength="118">who is esmail?</text>
       </g>
+      <!-- typed line: 14 chars × 8.4px — keep steps(14), translateX(118px), textLength="118" and cover width in sync -->
       <g id="typer">
         <rect x="49" y="199" width="122" height="20" fill="#1F1E1D"/>
         <g id="curgate"><rect id="cursor" x="49" y="201" width="8" height="17" fill="#F0EEE6"/></g>
@@ -96,14 +104,14 @@
       <g id="think">
         <text class="sp sp1 coral" x="32" y="258">·</text>
         <text class="sp sp2 coral" x="32" y="258">✢</text>
-        <text class="sp sp3 coral" x="32" y="258">✳</text>
+        <text class="sp sp3 coral" x="32" y="258">✳&#xFE0E;</text>
         <text class="sp sp4 coral" x="32" y="258">✶</text>
         <text class="sp sp5 coral" x="32" y="258">✻</text>
         <text class="dim i" x="49" y="258">Thinking…</text>
       </g>
 
       <!-- tool call -->
-      <g id="tool1"><text x="32" y="258"><tspan class="green">⏺</tspan><tspan x="49" class="b">Read</tspan><tspan>(about.md)</tspan></text></g>
+      <g id="tool1"><text x="32" y="258"><tspan class="green">⏺&#xFE0E;</tspan><tspan x="49" class="b">Read</tspan><tspan>(about.md)</tspan></text></g>
       <g id="tool2"><text class="dim" x="49" y="280">⎿&#160;&#160;Read 12 lines (ctrl+r to expand)</text></g>
 
       <!-- output -->
@@ -112,6 +120,6 @@
       <g id="out3"><text class="dim i" x="49" y="368">"attention is all you need."</text></g>
 
       <!-- footer -->
-      <g id="foot"><text class="dim" x="32" y="466">scroll ↓ for the full session · ✻ 42k tokens · esc to interrupt</text></g>
+      <g id="foot"><text class="dim" x="32" y="466">scroll ↓&#xFE0E; for the full session · ✻ 42k tokens · esc to interrupt</text></g>
   </g>
 </svg>
