@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="840" height="240" role="img" aria-label="Esmail's GitHub stats snapshot, July 2026: 86 public repos, 124 stars earned, 78 followers, 31 forks, 7 arXiv papers. Language share of source repos: Python 43%, Jupyter Notebook 19%, JavaScript 8%, TypeScript 6%, C++ 6%, other 19%.">
+  <style>
+    text {
+      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 14px;
+      fill: #F0EEE6;
+    }
+    .t12 { font-size: 12px; }
+    .dim { fill: #8A8A82; }
+    .coral { fill: #D97757; }
+    .b { font-weight: 700; }
+  </style>
+
+  <!-- panel -->
+  <rect x="0.5" y="0.5" width="839" height="239" rx="12" fill="#1F1E1D" stroke="#3E3E38"/>
+  <line x1="384.5" y1="48" x2="384.5" y2="204" stroke="#3E3E38"/>
+
+  <!-- left column: overview -->
+  <text class="t12 dim" x="32" y="56"># overview</text>
+  <text class="dim" x="32" y="84">repos</text>
+  <text x="150" y="84"><tspan class="b">86</tspan><tspan class="dim">&#160;public</tspan></text>
+  <text class="dim" x="32" y="106">stars</text>
+  <text x="150" y="106"><tspan class="coral">★&#xFE0E;</tspan><tspan class="b">&#160;124</tspan><tspan class="dim">&#160;earned</tspan></text>
+  <text class="dim" x="32" y="128">followers</text>
+  <text x="150" y="128"><tspan class="b">78</tspan></text>
+  <text class="dim" x="32" y="150">forks</text>
+  <text x="150" y="150"><tspan class="b">31</tspan><tspan class="dim">&#160;of my repos</tspan></text>
+  <text class="dim" x="32" y="172">papers</text>
+  <text x="150" y="172"><tspan class="b">7</tspan><tspan class="dim">&#160;on arXiv</tspan></text>
+
+  <!-- right column: language share bars (scaled to max = Python 43%) -->
+  <text class="t12 dim" x="416" y="56"># languages · share of source repos</text>
+
+  <text class="t12 dim" x="416" y="84">Python</text>
+  <path d="M508 75 h237 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-237 z" fill="#D97757"/>
+  <text class="t12" x="756" y="84">43%</text>
+
+  <text class="t12 dim" x="416" y="106">Jupyter</text>
+  <path d="M508 97 h103 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-103 z" fill="#D97757"/>
+  <text class="t12" x="622" y="106">19%</text>
+
+  <text class="t12 dim" x="416" y="128">JavaScript</text>
+  <path d="M508 119 h42 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-42 z" fill="#D97757"/>
+  <text class="t12" x="561" y="128">8%</text>
+
+  <text class="t12 dim" x="416" y="150">TypeScript</text>
+  <path d="M508 141 h31 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-31 z" fill="#D97757"/>
+  <text class="t12" x="550" y="150">6%</text>
+
+  <text class="t12 dim" x="416" y="172">C++</text>
+  <path d="M508 163 h31 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-31 z" fill="#D97757"/>
+  <text class="t12" x="550" y="172">6%</text>
+
+  <text class="t12 dim" x="416" y="194">other</text>
+  <path d="M508 185 h103 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-103 z" fill="#8A8A82"/>
+  <text class="t12" x="622" y="194">19%</text>
+
+  <!-- footer -->
+  <text class="t12 dim" x="32" y="222"># snapshot · Jul 2026 · data: github api · no external services</text>
+</svg>

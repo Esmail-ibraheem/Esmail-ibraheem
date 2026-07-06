@@ -57,14 +57,10 @@ Tools      Hugging Face · Git · Linux
 
 ### `> /stats`
 
-<samp>⏺ <b>Bash</b>(gh stats --user Esmail-ibraheem)</samp>
+<samp>⏺ <b>Bash</b>(gh stats --user Esmail-ibraheem)</samp><br>
+<samp>&nbsp;&nbsp;⎿&nbsp;&nbsp;snapshot · Jul 2026</samp>
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Esmail-ibraheem&show_icons=true&hide_border=true&bg_color=1F1E1D&title_color=D97757&text_color=F0EEE6&icon_color=D97757&ring_color=D97757" alt="GitHub stats card">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Esmail-ibraheem&layout=compact&hide_border=true&bg_color=1F1E1D&title_color=D97757&text_color=F0EEE6" alt="Top languages card">
-</p>
-
-<img src="https://streak-stats.demolab.com/?user=Esmail-ibraheem&background=1F1E1D&ring=D97757&fire=D97757&currStreakLabel=D97757&sideLabels=F0EEE6&currStreakNum=F0EEE6&sideNums=F0EEE6&dates=8A8A82&hide_border=true" alt="Contribution streak card">
+<img src="assets/stats.svg" width="840" alt="GitHub stats snapshot: 86 public repos · ★ 124 earned · 78 followers · 31 forks · 7 arXiv papers. Language share: Python 43%, Jupyter 19%, JavaScript 8%, TypeScript 6%, C++ 6%, other 19%.">
 
 ---
 
