@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-label="Esmail's Terminal CV. An animated terminal session answers 'who is esmail?': AI Research Engineer - LLMs, distributed training, MoE. 7 arXiv publications, PyTorch and CUDA.">
+  <style>
+    text {
+      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 14px;
+      fill: #F0EEE6;
+    }
+    .t12 { font-size: 12px; }
+    .dim { fill: #8A8A82; }
+    .coral { fill: #D97757; }
+    .green { fill: #4EBA65; }
+    .b { font-weight: 700; }
+    .i { font-style: italic; }
+
+    /* Window chrome fades in once on load and persists; only the session
+       content (#scene) loops. "Fade to bg" then empties the terminal instead
+       of blinking the whole window off (no white flash on light pages). */
+    #win    { animation: winIn 0.4s ease-out 1; }
+    #scene  { animation: scene 20s linear infinite; }
+    #wl1    { animation: wl1 20s linear infinite; }
+    #wl3    { animation: wl3 20s linear infinite; }
+    #wl4    { animation: wl4 20s linear infinite; }
+    #wl5    { animation: wl5 20s linear infinite; }
+    #prompt { animation: prompt 20s linear infinite; }
+    #typer  { animation: type 20s steps(14, end) infinite; }
+    #curgate { animation: curgate 20s linear infinite; }
+    #cursor { animation: blink 1s linear infinite; }
+    #think  { animation: think 20s linear infinite; }
+    .sp     { animation: spin 0.8s linear infinite; opacity: 0; }
+    .sp1 { animation-delay: 0s; }
+    .sp2 { animation-delay: 0.16s; }
+    .sp3 { animation-delay: 0.32s; }
+    .sp4 { animation-delay: 0.48s; }
+    .sp5 { animation-delay: 0.64s; }
+    #tool1 { animation: tool1 20s linear infinite; }
+    #tool2 { animation: tool2 20s linear infinite; }
+    #out1  { animation: out1 20s linear infinite; }
+    #out2  { animation: out2 20s linear infinite; }
+    #out3  { animation: out3 20s linear infinite; }
+    #foot  { animation: foot 20s linear infinite; }
+
+    /* master timeline: 20s, 1s = 5% */
+    @keyframes scene  { 0%, 92.5% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes winIn  { 0% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes wl1    { 0%, 2%   { opacity: 0; } 3.5%, 100% { opacity: 1; } }
+    @keyframes wl3    { 0%, 4%   { opacity: 0; } 5.5%, 100% { opacity: 1; } }
+    @keyframes wl4    { 0%, 5.5% { opacity: 0; } 7%, 100%   { opacity: 1; } }
+    @keyframes wl5    { 0%, 6.5% { opacity: 0; } 8%, 100%   { opacity: 1; } }
+    @keyframes prompt { 0%, 9.5% { opacity: 0; } 10%, 100%  { opacity: 1; } }
+    @keyframes type   { 0%, 10% { transform: translateX(0); } 22%, 100% { transform: translateX(118px); } }
+    @keyframes curgate { 0%, 9.4% { opacity: 0; } 9.5%, 23.9% { opacity: 1; } 24%, 100% { opacity: 0; } }
+    @keyframes blink  { 0%, 49.9% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes think  { 0%, 24% { opacity: 0; } 24.5%, 34.5% { opacity: 1; } 35%, 100% { opacity: 0; } }
+    @keyframes spin   { 0%, 19.9% { opacity: 1; } 20%, 100% { opacity: 0; } }
+    @keyframes tool1  { 0%, 35% { opacity: 0; } 36%, 100% { opacity: 1; } }
+    @keyframes tool2  { 0%, 37% { opacity: 0; } 38%, 100% { opacity: 1; } }
+    @keyframes out1   { 0%, 40% { opacity: 0; transform: translateY(5px); } 42%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes out2   { 0%, 43% { opacity: 0; transform: translateY(5px); } 45%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes out3   { 0%, 46% { opacity: 0; transform: translateY(5px); } 48%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes foot   { 0%, 50% { opacity: 0; } 52%, 100% { opacity: 1; } }
+  </style>
+
+  <!-- window chrome: fades in once, persists across content loops -->
+  <g id="win">
+    <rect x="0.5" y="0.5" width="839" height="499" rx="12" fill="#1F1E1D" stroke="#3E3E38"/>
+    <line x1="1" y1="36.5" x2="839" y2="36.5" stroke="#3E3E38"/>
+    <circle cx="24" cy="18.5" r="6" fill="#E5695E"/>
+    <circle cx="44" cy="18.5" r="6" fill="#D9A756"/>
+    <circle cx="64" cy="18.5" r="6" fill="#4EBA65"/>
+    <text class="t12 dim" x="420" y="23" text-anchor="middle">esmail@sanaa — ~/esmail-ibraheem</text>
+  </g>
+
+  <!-- session content: loops every 20s -->
+  <g id="scene">
+      <!-- welcome box -->
+      <g id="wl1">
+        <rect x="32" y="58" width="412" height="128" rx="6" fill="none" stroke="#3E3E38"/>
+        <text x="48" y="82"><tspan class="coral">✻</tspan><tspan class="b" x="65">Welcome to Esmail's Terminal CV!</tspan></text>
+      </g>
+      <g id="wl3"><text class="dim" x="48" y="126" textLength="302">/help for help · /cv for full résumé</text></g>
+      <g id="wl4"><text class="dim" x="48" y="148" textLength="185">cwd: ~/esmail-ibraheem</text></g>
+      <g id="wl5"><text class="dim" x="48" y="170" textLength="370">model: esmail-v25 · Sana'a University, Yemen</text></g>
+
+      <!-- typed prompt -->
+      <g id="prompt">
+        <text class="coral b" x="32" y="214">&gt;</text>
+        <text x="49" y="214" textLength="118">who is esmail?</text>
+      </g>
+      <g id="typer">
+        <rect x="49" y="199" width="122" height="20" fill="#1F1E1D"/>
+        <g id="curgate"><rect id="cursor" x="49" y="201" width="8" height="17" fill="#F0EEE6"/></g>
+      </g>
+
+      <!-- thinking spinner (same row is reused by the tool call once it ends) -->
+      <g id="think">
+        <text class="sp sp1 coral" x="32" y="258">·</text>
+        <text class="sp sp2 coral" x="32" y="258">✢</text>
+        <text class="sp sp3 coral" x="32" y="258">✳</text>
+        <text class="sp sp4 coral" x="32" y="258">✶</text>
+        <text class="sp sp5 coral" x="32" y="258">✻</text>
+        <text class="dim i" x="49" y="258">Thinking…</text>
+      </g>
+
+      <!-- tool call -->
+      <g id="tool1"><text x="32" y="258"><tspan class="green">⏺</tspan><tspan x="49" class="b">Read</tspan><tspan>(about.md)</tspan></text></g>
+      <g id="tool2"><text class="dim" x="49" y="280">⎿&#160;&#160;Read 12 lines (ctrl+r to expand)</text></g>
+
+      <!-- output -->
+      <g id="out1"><text x="49" y="324">AI Research Engineer — LLMs, distributed training, MoE</text></g>
+      <g id="out2"><text x="49" y="346">7 arXiv publications · 86 repos · PyTorch &amp; CUDA</text></g>
+      <g id="out3"><text class="dim i" x="49" y="368">"attention is all you need."</text></g>
+
+      <!-- footer -->
+      <g id="foot"><text class="dim" x="32" y="466">scroll ↓ for the full session · ✻ 42k tokens · esc to interrupt</text></g>
+  </g>
+</svg>
