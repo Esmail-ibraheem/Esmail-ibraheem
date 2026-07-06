@@ -1,0 +1,39 @@
+name: streak card
+
+on:
+  schedule:
+    - cron: '23 2 * * *'   # daily, 02:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run tests
+        run: python scripts/test_streak_card.py
+
+      - name: Generate streak card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/streak_card.py
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet assets/streak.svg; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/streak.svg
+            git commit -m "chore: refresh streak card"
+            git push
+          else
+            echo "streak card unchanged"
+          fi

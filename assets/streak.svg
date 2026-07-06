@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 170" width="840" height="170" role="img" aria-label="Contribution streak, updated 2026-07-06: 3,572 total contributions since 2022-09-18; current streak 1 day; longest streak 17 days.">
+  <style>
+    text {
+      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 14px;
+      fill: #F0EEE6;
+    }
+    .t12 { font-size: 12px; }
+    .dim { fill: #8A8A82; }
+    .coral { fill: #D97757; }
+    .n { font-size: 26px; font-weight: 700; }
+
+    /* Same grammar as hero.svg/stats-v2.svg: chrome persists, content
+       loops on a 20s timeline; base styles equal the final frame. */
+    #panel { animation: winIn 0.4s ease-out 1; }
+    #scene { animation: scene 20s linear infinite; }
+    #hdr { animation: hdr 20s linear infinite; }
+    #c1 { animation: c1 20s linear infinite; }
+    #c2 { animation: c2 20s linear infinite; }
+    #c3 { animation: c3 20s linear infinite; }
+
+    @keyframes winIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes scene { 0%, 92.5% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes hdr { 0%, 2% { opacity: 0; } 4%, 100% { opacity: 1; } }
+    @keyframes c1 { 0%, 5% { opacity: 0; transform: translateY(5px); } 7%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes c2 { 0%, 8% { opacity: 0; transform: translateY(5px); } 10%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes c3 { 0%, 11% { opacity: 0; transform: translateY(5px); } 13%, 100% { opacity: 1; transform: translateY(0); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      #panel, #scene, #hdr, #c1, #c2, #c3 { animation: none; }
+    }
+  </style>
+
+  <g id="panel">
+    <rect x="0.5" y="0.5" width="839" height="169" rx="12" fill="#1F1E1D" stroke="#3E3E38"/>
+  </g>
+
+  <g id="scene">
+    <g id="hdr">
+      <text class="t12 dim" x="32" y="42"># streak · updated 2026-07-06 · refreshed daily</text>
+      <line x1="300.5" y1="58" x2="300.5" y2="146" stroke="#3E3E38"/>
+      <line x1="540.5" y1="58" x2="540.5" y2="146" stroke="#3E3E38"/>
+    </g>
+
+    <g id="c1">
+      <text class="n" x="166" y="100" text-anchor="middle">3,572</text>
+      <text class="t12 dim" x="166" y="124" text-anchor="middle">total contributions</text>
+      <text class="t12 dim" x="166" y="144" text-anchor="middle">since 2022-09-18</text>
+    </g>
+
+    <g id="c2">
+      <text class="n coral" x="420" y="100" text-anchor="middle">✻ 1 day</text>
+      <text class="t12 dim" x="420" y="124" text-anchor="middle">current streak</text>
+      <text class="t12 dim" x="420" y="144" text-anchor="middle">2026-07-06 → 2026-07-06</text>
+    </g>
+
+    <g id="c3">
+      <text class="n" x="674" y="100" text-anchor="middle">17 days</text>
+      <text class="t12 dim" x="674" y="124" text-anchor="middle">longest streak</text>
+      <text class="t12 dim" x="674" y="144" text-anchor="middle">2024-09-02 → 2024-09-18</text>
+    </g>
+  </g>
+</svg>
