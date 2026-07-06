@@ -60,7 +60,7 @@ Tools      Hugging Face · Git · Linux
 <samp>⏺ <b>Bash</b>(gh stats --user Esmail-ibraheem)</samp><br>
 <samp>&nbsp;&nbsp;⎿&nbsp;&nbsp;snapshot · Jul 2026</samp>
 
-<img src="assets/stats.svg" width="840" alt="GitHub stats snapshot: 86 public repos · ★ 124 earned · 78 followers · 31 forks · 7 arXiv papers. Language share: Python 43%, Jupyter 19%, JavaScript 8%, TypeScript 6%, C++ 6%, other 19%.">
+<img src="assets/stats-v2.svg" width="840" alt="GitHub stats snapshot: 86 public repos · ★ 124 earned · 78 followers · 31 forks · 7 arXiv papers. Language share: Python 43%, Jupyter 19%, JavaScript 8%, TypeScript 6%, C++ 6%, other 19%.">
 
 ---
 

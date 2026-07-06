@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="840" height="240" role="img" aria-label="Esmail's GitHub stats snapshot, July 2026: 86 public repos, 124 stars earned, 78 followers, 31 forks, 7 arXiv papers. Language share of source repos: Python 43%, Jupyter Notebook 19%, JavaScript 8%, TypeScript 6%, C++ 6%, other 19%.">
+  <style>
+    text {
+      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 14px;
+      fill: #F0EEE6;
+    }
+    .t12 { font-size: 12px; }
+    .dim { fill: #8A8A82; }
+    .coral { fill: #D97757; }
+    .b { font-weight: 700; }
+
+    /* Panel chrome fades in once and persists; content (#scene) loops.
+       Base styles equal the final frame, so reduced-motion users and
+       renderers without CSS animation get the complete static card. */
+    #panel { animation: winIn 0.4s ease-out 1; }
+    #scene { animation: scene 20s linear infinite; }
+    #hdr   { animation: hdr 20s linear infinite; }
+    #o1 { animation: o1 20s linear infinite; }
+    #o2 { animation: o2 20s linear infinite; }
+    #o3 { animation: o3 20s linear infinite; }
+    #o4 { animation: o4 20s linear infinite; }
+    #o5 { animation: o5 20s linear infinite; }
+    #lr1 { animation: lr1 20s linear infinite; }
+    #lr2 { animation: lr2 20s linear infinite; }
+    #lr3 { animation: lr3 20s linear infinite; }
+    #lr4 { animation: lr4 20s linear infinite; }
+    #lr5 { animation: lr5 20s linear infinite; }
+    #lr6 { animation: lr6 20s linear infinite; }
+    .bar { transform-box: fill-box; transform-origin: 0% 50%; }
+    #b1 { animation: b1 20s linear infinite; }
+    #b2 { animation: b2 20s linear infinite; }
+    #b3 { animation: b3 20s linear infinite; }
+    #b4 { animation: b4 20s linear infinite; }
+    #b5 { animation: b5 20s linear infinite; }
+    #b6 { animation: b6 20s linear infinite; }
+    #foot { animation: foot 20s linear infinite; }
+
+    /* master timeline: 20s, 1s = 5% (same loop as hero.svg) */
+    @keyframes winIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes scene { 0%, 92.5% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes hdr   { 0%, 2%  { opacity: 0; } 4%, 100%  { opacity: 1; } }
+    @keyframes o1 { 0%, 5%  { opacity: 0; transform: translateY(5px); } 7%, 100%  { opacity: 1; transform: translateY(0); } }
+    @keyframes o2 { 0%, 8%  { opacity: 0; transform: translateY(5px); } 10%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes o3 { 0%, 11% { opacity: 0; transform: translateY(5px); } 13%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes o4 { 0%, 14% { opacity: 0; transform: translateY(5px); } 16%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes o5 { 0%, 17% { opacity: 0; transform: translateY(5px); } 19%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr1 { 0%, 20% { opacity: 0; transform: translateY(5px); } 22%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr2 { 0%, 23% { opacity: 0; transform: translateY(5px); } 25%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr3 { 0%, 26% { opacity: 0; transform: translateY(5px); } 28%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr4 { 0%, 29% { opacity: 0; transform: translateY(5px); } 31%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr5 { 0%, 32% { opacity: 0; transform: translateY(5px); } 34%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes lr6 { 0%, 35% { opacity: 0; transform: translateY(5px); } 37%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes b1 { 0%, 22% { transform: scaleX(0); } 25%, 100% { transform: scaleX(1); } }
+    @keyframes b2 { 0%, 25% { transform: scaleX(0); } 28%, 100% { transform: scaleX(1); } }
+    @keyframes b3 { 0%, 28% { transform: scaleX(0); } 31%, 100% { transform: scaleX(1); } }
+    @keyframes b4 { 0%, 31% { transform: scaleX(0); } 34%, 100% { transform: scaleX(1); } }
+    @keyframes b5 { 0%, 34% { transform: scaleX(0); } 37%, 100% { transform: scaleX(1); } }
+    @keyframes b6 { 0%, 37% { transform: scaleX(0); } 40%, 100% { transform: scaleX(1); } }
+    @keyframes foot { 0%, 41% { opacity: 0; } 43%, 100% { opacity: 1; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      #panel, #scene, #hdr, #o1, #o2, #o3, #o4, #o5,
+      #lr1, #lr2, #lr3, #lr4, #lr5, #lr6,
+      #b1, #b2, #b3, #b4, #b5, #b6, #foot { animation: none; }
+    }
+  </style>
+
+  <!-- panel chrome: fades in once, persists across content loops -->
+  <g id="panel">
+    <rect x="0.5" y="0.5" width="839" height="239" rx="12" fill="#1F1E1D" stroke="#3E3E38"/>
+  </g>
+
+  <!-- card content: loops every 20s -->
+  <g id="scene">
+    <g id="hdr">
+      <line x1="384.5" y1="48" x2="384.5" y2="204" stroke="#3E3E38"/>
+      <text class="t12 dim" x="32" y="56"># overview</text>
+      <text class="t12 dim" x="416" y="56"># languages · share of source repos</text>
+    </g>
+
+    <!-- left column: overview -->
+    <g id="o1">
+      <text class="dim" x="32" y="84">repos</text>
+      <text x="150" y="84"><tspan class="b">86</tspan><tspan class="dim">&#160;public</tspan></text>
+    </g>
+    <g id="o2">
+      <text class="dim" x="32" y="106">stars</text>
+      <text x="150" y="106"><tspan class="coral">★&#xFE0E;</tspan><tspan class="b">&#160;124</tspan><tspan class="dim">&#160;earned</tspan></text>
+    </g>
+    <g id="o3">
+      <text class="dim" x="32" y="128">followers</text>
+      <text x="150" y="128"><tspan class="b">78</tspan></text>
+    </g>
+    <g id="o4">
+      <text class="dim" x="32" y="150">forks</text>
+      <text x="150" y="150"><tspan class="b">31</tspan><tspan class="dim">&#160;of my repos</tspan></text>
+    </g>
+    <g id="o5">
+      <text class="dim" x="32" y="172">papers</text>
+      <text x="150" y="172"><tspan class="b">7</tspan><tspan class="dim">&#160;on arXiv</tspan></text>
+    </g>
+
+    <!-- right column: language share bars (scaled to max = Python 43%) -->
+    <g id="lr1">
+      <text class="t12 dim" x="416" y="84">Python</text>
+      <path id="b1" class="bar" d="M508 75 h237 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-237 z" fill="#D97757"/>
+      <text class="t12" x="756" y="84">43%</text>
+    </g>
+    <g id="lr2">
+      <text class="t12 dim" x="416" y="106">Jupyter</text>
+      <path id="b2" class="bar" d="M508 97 h103 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-103 z" fill="#D97757"/>
+      <text class="t12" x="622" y="106">19%</text>
+    </g>
+    <g id="lr3">
+      <text class="t12 dim" x="416" y="128">JavaScript</text>
+      <path id="b3" class="bar" d="M508 119 h42 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-42 z" fill="#D97757"/>
+      <text class="t12" x="561" y="128">8%</text>
+    </g>
+    <g id="lr4">
+      <text class="t12 dim" x="416" y="150">TypeScript</text>
+      <path id="b4" class="bar" d="M508 141 h31 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-31 z" fill="#D97757"/>
+      <text class="t12" x="550" y="150">6%</text>
+    </g>
+    <g id="lr5">
+      <text class="t12 dim" x="416" y="172">C++</text>
+      <path id="b5" class="bar" d="M508 163 h31 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-31 z" fill="#D97757"/>
+      <text class="t12" x="550" y="172">6%</text>
+    </g>
+    <g id="lr6">
+      <text class="t12 dim" x="416" y="194">other</text>
+      <path id="b6" class="bar" d="M508 185 h103 a3 3 0 0 1 3 3 v4 a3 3 0 0 1 -3 3 h-103 z" fill="#8A8A82"/>
+      <text class="t12" x="622" y="194">19%</text>
+    </g>
+
+    <!-- footer -->
+    <g id="foot"><text class="t12 dim" x="32" y="222"># snapshot · Jul 2026 · data: github api · no external services</text></g>
+  </g>
+</svg>
