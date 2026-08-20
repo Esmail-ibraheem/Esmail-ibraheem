@@ -1,6 +1,6 @@
 <p align="center">
   <img src="assets/hero.svg" width="840" alt="✻ Welcome to Esmail's Terminal CV! — > who is esmail? — AI Research Engineer: LLMs, distributed training, MoE · 7 arXiv publications · PyTorch & CUDA"> 
-</p> 
+</p>  
   
 ### `> whoami`
  
